@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>瞎玩的</title>
+		<style>
+			div{
+				width:50px;
+				height:50px;
+				background:red;
+				position:relative;
+				animation: GG 5s;
+			}
+			@keyframes GG {
+				0%,100%{
+					background : red;
+					left: 0px;
+					top :0px;
+					border-radius:50%;
+				}
+				25%{
+					background : green;
+					left :500px;
+					top :0px;
+					border-radius:0%;
+				}
+				50%{
+					background : yellow;
+					left:500px;
+					top:500px;
+					border-radius:0%;
+				}
+				75%{
+					background:blue;
+					left:0px;
+					top:500px;
+					border-radius:50%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
